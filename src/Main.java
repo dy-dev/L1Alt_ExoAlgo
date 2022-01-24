@@ -16,6 +16,9 @@ public class Main {
             case 3 -> {
                 InterestRate.calculateCost();
             }
+            case 5 -> {
+                HorsesBet.calculateBets();
+            }
         }
 
     }

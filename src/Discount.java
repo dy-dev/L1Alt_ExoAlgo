@@ -53,8 +53,7 @@ public class Discount {
         float amountToReturn = 20 * nb20DollarsBills - finalprice;
 
         int amountToReturnInCents = (int) (amountToReturn * 100.f);
-        System.out.println("You have paid " + (20 * nb20DollarsBills) + " to pay for this item which value is " + finalprice);
-        System.out.println("I have to return " + amountToReturn );
+        displayInfoOnLoan(nb20DollarsBills, finalprice, amountToReturn);
         for (int value : moneyArray) {
             int nbItem = amountToReturnInCents / value;
             amountToReturnInCents %= value;
@@ -79,6 +78,11 @@ public class Discount {
                 System.out.println(nbItem + " " + type +" of " + value + nature);
 
         }
+    }
+
+    private static void displayInfoOnLoan(int nb20DollarsBills, float finalprice, float amountToReturn) {
+        System.out.println("You have paid " + (20 * nb20DollarsBills) + " to pay for this item which value is " + finalprice);
+        System.out.println("I have to return " + amountToReturn);
     }
 
 
