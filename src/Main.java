@@ -13,6 +13,9 @@ public class Main {
             case 2 -> {
                 Discount.calculateVariablesDiscount();
             }
+            case 3 -> {
+                InterestRate.calculateCost();
+            }
         }
 
     }

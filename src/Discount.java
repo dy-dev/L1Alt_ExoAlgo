@@ -73,7 +73,7 @@ public class Discount {
             //Cents coins
             else {
                 type = "coin(s)";
-                nature = "cents"
+                nature = "cents";
             }
             if(nbItem > 0)
                 System.out.println(nbItem + " " + type +" of " + value + nature);
