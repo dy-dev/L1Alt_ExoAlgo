@@ -19,6 +19,9 @@ public class Main {
             case 5 -> {
                 HorsesBet.calculateBets();
             }
+            case 6 -> {
+                Prime.findPrimeNumbers();
+            }
         }
 
     }
