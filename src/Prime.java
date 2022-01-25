@@ -59,7 +59,7 @@ public class Prime {
                 return false;
             }
         }
-        return true;)
+        return true;
     }
 
 

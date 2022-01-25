@@ -22,6 +22,9 @@ public class Main {
             case 6 -> {
                 Prime.findPrimeNumbers();
             }
+            case 7 -> {
+                BFS.demo();
+            }
         }
 
     }
